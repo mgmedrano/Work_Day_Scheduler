@@ -16,20 +16,20 @@ function timeKeeper(){
         var blockTime = parseInt($(this).attr("id").split(".row")[1]);
 
         if(blockTime < timeNow) {
-            $(this).removeClass("present");
-            $(this).removeClass("future");
-            $(this).addClass("past");
+            $(this).removeClass("present")
+            $(this).removeClass("future")
+            $(this).addClass("past")
         } else if (blockTime === timeNow) {
-            $(this).removeClass("past");
-            $(this).removeClass("future");
-            $(this).addClass("present");
+            $(this).removeClass("past")
+            $(this).removeClass("future")
+            $(this).addClass("present")
         } else {
-            $(this).removeClass("present");
-            $(this).removeClass("past");
-            $(this).addClass("future");
+            $(this).removeClass("present")
+            $(this).removeClass("past")
+            $(this).addClass("future")
         }
     })
-}
+};
 
 $("#nine.description").val(localStorage.getItem('nine'));
 $("#ten.description").val(localStorage.getItem('ten'));
