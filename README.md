@@ -14,7 +14,7 @@
 - Information remains upon page refresh.
 
 # Quiz Preview 
-> Preview ![Quiz Start](Assets/javaScriptQuiz.png) 
+> Preview ![Work_Day_Scheduler](Assets/javaScriptQuiz.png) 
 
 ## Repository & Webpage:
 - URL: https://mgmedrano.github.io/Work_Day_Scheduler/
