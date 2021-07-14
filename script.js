@@ -10,7 +10,7 @@ $(document).ready(function(){
         var time = $(this).parent().attr("id");
         
         localStorage.setItem(time, text);
-//saving entries into local stoarge
+//saving entries into local storage
 $("#time9.description").val(localStorage.getItem('time9'));
 $("#time10.description").val(localStorage.getItem('time10'));
 $("#time11.description").val(localStorage.getItem('time11'));
