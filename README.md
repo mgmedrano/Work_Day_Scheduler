@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 # Work_Day_Scheduler
 
 ## Background
